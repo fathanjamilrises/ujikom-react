@@ -6,6 +6,7 @@ import ProgramKeahlian from "../components/ProgramKeahlian";
 import Testimonial from "../components/Testimonial";
 import BeritaBeranda from "../components/BeritaBeranda";
 
+
 const Beranda = () => {
   return (
     <div className="bg-white">
@@ -15,6 +16,8 @@ const Beranda = () => {
       <ProgramKeahlian />
       <Testimonial />
       <BeritaBeranda />
+
+      
     </div>
   );
 };

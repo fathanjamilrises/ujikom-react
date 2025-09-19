@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  FaStar,
-} from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 const Testimonial = () => {
   return (
@@ -18,7 +16,7 @@ const Testimonial = () => {
           Apa Kata <span className="font-bold">Mereka?</span>
         </h2>
         <p className="mb-12">
-          Suara dari siswa, alumni, dan orang tua tentang SMAN 7 Jakarta.
+          Suara dari siswa, alumni, dan orang tua tentang SMKN 4 Tasikmalaya.
         </p>
 
         {/* Card Testimonial */}
@@ -39,7 +37,7 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center gap-4 mt-auto">
               <img
-                src="./assets/alumni1.jpg"
+                src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?semt=ais_incoming&w=740&q=80"
                 alt="Siti Rahmawati"
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -66,7 +64,7 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center gap-4 mt-auto">
               <img
-                src="./assets/ortu1.jpg"
+                src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?semt=ais_incoming&w=740&q=80"
                 alt="Ibu Lestari"
                 className="w-12 h-12 rounded-full object-cover"
               />
