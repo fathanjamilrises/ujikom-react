@@ -60,8 +60,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/program" className="hover:underline">
-                  Program Keahlian
+                <a href="/ekstrakurikuler" className="hover:underline">
+                  Ekstrakulikuler
                 </a>
               </li>
               <li>
@@ -70,8 +70,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/kontak" className="hover:underline">
-                  Kontak
+                <a href="/galeri" className="hover:underline">
+                  Galeri
                 </a>
               </li>
             </ul>

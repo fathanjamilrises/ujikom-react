@@ -20,7 +20,9 @@ const DetailKompetensiKeahlian = () => {
         .select("*")
         .eq("slug", slug)
         .single();
-      if (!error) setData(data);
+      if (error) console.error(error);
+      else setData(data);
+      document.title = `${data.nama} | SMKN 4 Tasikmalaya`;
     };
     fetchDetail();
   }, [slug]);

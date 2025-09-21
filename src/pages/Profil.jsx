@@ -5,8 +5,13 @@ import VisiMisi from "../components/VisiMisi";
 import ProfilVideo from "../components/ProfilVideo";
 import IdentitasSekolah from "../components/IdentitasSekolah";
 import HeaderHero from "../components/HeaderHero";
+import { useEffect } from "react";
 
 const Profil = () => {
+    useEffect(() => {
+    document.title = "Profil | SMKN 4 Tasikmalaya";
+  }, []);
+
   return (
     <div className="bg-white">
       <HeaderHero title="Profil" description="SMKN 4 Tasikmalaya adalah Sekolah Menengah Kejuruan Negeri yang terletak di Kecamatan Purbaratu Kota Tasikmalaya Jawa Barat " />

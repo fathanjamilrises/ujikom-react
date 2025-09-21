@@ -19,6 +19,7 @@ const BeritaDetail = () => {
 
       if (error) console.error(error);
       else setBerita(data);
+      document.title = `${data.judul} | SMKN 4 Tasikmalaya`;
     };
     fetchBerita();
   }, [slug]);
