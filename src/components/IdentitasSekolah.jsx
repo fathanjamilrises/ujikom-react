@@ -15,7 +15,7 @@ const IdentitasSekolah = () => {
           Identitas <span className="font-bold ">Sekolah</span>
         </h2>
 
-        <div className="bg-white shadow-lg p-6 md:p-10" data-aos="fade-left">
+        <div className="bg-white shadow-lg p-6 md:p-10" data-aos="fade-right">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-[#0265af]">Profil</h3>
