@@ -1,7 +1,13 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const Testimonial = () => {
+  useEffect(() => {
+    AOS.init({duration:1200,once:false})
+  })
   return (
     <section
       className="relative py-20 bg-cover bg-center"
@@ -12,17 +18,16 @@ const Testimonial = () => {
 
       {/* Konten */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-white text-center">
-        <h2 className="text-3xl md:text-4xl font-[Inter] mb-2">
+        <h2 className="text-3xl md:text-4xl font-[Inter] mb-2" data-aos="fade-right">
           Apa Kata <span className="font-bold">Mereka?</span>
         </h2>
-        <p className="mb-12">
+        <p className="mb-12" data-aos="fade-right" data-aos-delay="200">
           Suara dari siswa, alumni, dan orang tua tentang SMKN 4 Tasikmalaya.
         </p>
 
         {/* Card Testimonial */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Card 1 */}
-          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6 flex flex-col">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6" >
+          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6 flex flex-col" data-aos="fade-up" data-aos-delay="400">
             <div className="flex text-yellow-500 mb-4">
               <FaStar />
               <FaStar />
@@ -49,7 +54,7 @@ const Testimonial = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6 flex flex-col">
+          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6 flex flex-col" data-aos="fade-up" data-aos-delay="400">
             <div className="flex text-yellow-500 mb-4">
               <FaStar />
               <FaStar />

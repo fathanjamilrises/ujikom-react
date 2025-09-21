@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Profil */}
           <div className="flex flex-col gap-4">
-            <img src="./assets/logo-white.png" className="w-60" alt="Logo" />
+            <img src="/assets/logo-white.png" className="w-60" alt="Logo" />
             <p className="text-sm leading-relaxed px-2 text-white">
               Jl. Depok, Kec. Purbaratu,
               <br />
@@ -19,7 +19,7 @@ const Footer = () => {
 
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/smkn4tsmofficial"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 text-white"
@@ -27,7 +27,7 @@ const Footer = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 text-white"
@@ -35,7 +35,7 @@ const Footer = () => {
                 <FaYoutube />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 text-white"

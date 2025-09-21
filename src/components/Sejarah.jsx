@@ -1,15 +1,21 @@
 import React from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const Sejarah = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200, once: false });
+  });
   return (
     <section className="py-20">
       <div className="max-w-[90rem] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Konten */}
         <div>
-          <h2 className="text-3xl md:text-4xl mb-4 leading-snug text-gray-900">
+          <h2 className="text-3xl md:text-4xl mb-4 leading-snug text-gray-900" data-aos="fade-right">
             Sejarah <span className="font-bold">Sekolah</span>
           </h2>
-          <p className="text-gray-600 mb-10 text-sm text-justify leading-relaxed">
+          <p className="text-gray-600 mb-10 text-sm text-justify leading-relaxed" data-aos="fade-up" data-aos-delay="200">
             Sejalan dengan Program Pemerintah dibidang pendidikan Menengah
             Kejuruan pada saat itu yakni pemerataan akses ditambah pula dengan
             banyaknya keinginan masyarakat yang mengharapkan adanya SMK Negeri
@@ -39,7 +45,7 @@ const Sejarah = () => {
           <img
             src="https://web-sekolah-tawny.vercel.app/_nuxt/brsma.C4Xe_xko.jpg"
             alt="foto guru"
-            className="shadow-xl"
+            className="shadow-xl" data-aos="fade-left"
           />
         </div>
       </div>

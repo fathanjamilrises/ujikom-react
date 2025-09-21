@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import InformasiDetail from "../components/InformasiDetail";
 import Keunggulan from "../components/Keunggulan";
-import ProgramKeahlian from "../components/ProgramKeahlian";
+import ProgramKeahlian from "../components/KompetensiKeahlian";
 import Testimonial from "../components/Testimonial";
 import BeritaBeranda from "../components/BeritaBeranda";
 
