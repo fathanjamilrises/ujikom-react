@@ -45,7 +45,7 @@ const Sejarah = () => {
           <img
             src="https://web-sekolah-tawny.vercel.app/_nuxt/brsma.C4Xe_xko.jpg"
             alt="foto guru"
-            className="shadow-xl" data-aos="fade-left"
+            className="shadow-xl" data-aos="fade-up"
           />
         </div>
       </div>

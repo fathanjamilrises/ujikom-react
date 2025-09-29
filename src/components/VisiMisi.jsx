@@ -10,7 +10,7 @@ const VisiMisi = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-[90rem] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative hidden md:block" data-aos="fade-right">
+        <div className="relative hidden md:block" data-aos="fade-up">
           <img
             src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b"
             alt="visi misi"
@@ -18,7 +18,7 @@ const VisiMisi = () => {
           />
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-right">
           <h2 className="text-3xl md:text-4xl mb-6 leading-snug text-gray-900" data-aos="fade-down">
             Visi <span className="font-bold">dan Misi</span>
           </h2>
@@ -26,14 +26,14 @@ const VisiMisi = () => {
           <div className="mb-8">
             <h3
               className="text-xl font-semibold text-gray-800 mb-3"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-delay="100"
             >
               Visi
             </h3>
             <p
               className="text-gray-600 text-sm leading-relaxed"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-delay="200"
             >
               Terwujudnya lulusan yang berkarakter, berprestasi, dan berdaya

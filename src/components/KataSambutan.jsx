@@ -21,7 +21,7 @@ const KataSambutan = () => {
           <div className="flex-shrink-0 w-full md:w-1/3 ">
             <img
               src="./assets/kepsek.png"
-              className="w-full object-cover h-auto bg-[#0265af] rounded-lg shadow-sm"
+              className="w-full object-cover h-[400px] bg-[#0265af] rounded-lg shadow-sm"
               alt=""
               data-aos="fade-up"
             />
@@ -41,14 +41,14 @@ const KataSambutan = () => {
           <div className="max-w-2xl">
             <h1
               className="mb-4 text-2xl md:text-3xl font-bold"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="200"
             >
               Assalamualaikum Wr Wb
             </h1>
             <p
               className="text-md font-[Satoshi]"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="400"
             >
               Selamat datang di SMKN 4 Tasikmalaya. Segala puji dan syukur kita
