@@ -82,7 +82,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Lokasi</h3>
             <iframe
               title="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63367.24106704969!2d108.1900937!3d-7.3509288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65f58a7b1a94bb%3A0x401e8f1fc28c0a0!2sTasikmalaya!5e0!3m2!1sid!2sid!4v1695032132423!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213116362029!2d108.25189907500041!3d-7.329945292678408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1759118781526!5m2!1sid!2sid"
               width="100%"
               height="200"
               style={{ border: 0 }}

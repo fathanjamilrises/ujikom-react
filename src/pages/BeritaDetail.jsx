@@ -32,7 +32,7 @@ const BeritaDetail = () => {
     <div className="max-w-3xl mx-auto px-4 py-10 font-[Inter]">
       <button
         onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-[#0265af] mb-6 hover:underline"
+        className="flex items-center gap-2 text-[#0265af] mb-6 hover:underline cursor-pointer"
       >
         <FaArrowLeft /> Kembali
       </button>

@@ -36,7 +36,7 @@ const DetailKompetensiKeahlian = () => {
       <div className="max-w-4xl mx-auto px-6">
         <button
           onClick={() => navigate(-1)}
-          className="flex items-center gap-2 text-[#0265af] mb-2 hover:underline"
+          className="flex items-center gap-2 text-[#0265af] mb-2 hover:underline cursor-pointer"
         >
           <FaArrowLeft /> Kembali
         </button>
